@@ -5,3 +5,4 @@ type powershell, enter
 cd to the directory where you want generate file checksum
 
 run command "get-filehash * | fl | out-file -force -filepath [directoy/sha256.txt]"
+
